@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prestige Real Estate</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #0e0e0e;
+      color: #f5f5f5;
+    }
+
+    header {
+      background-image: url('abu2.jpg');
+      background-size: 100%;
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      padding: 190px 40px;
+      text-align: center;
+      position: relative;
+      color: #f5f5f5;
+    }
+
+    .header-bg {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+      backdrop-filter: blur(2px);
+    }
+
+    header h1 {
+      color: #d4af37;
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #ccc;
+      font-size: 1.2rem;
+    }
+
+    .hero {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      color: #d4af37;
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      color: #e0e0e0;
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .event-details {
+      text-align: center;
+      padding-top: 50px;
+    }
+
+    .event-details h1 {
+      color: #d4af37;
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+    }
+
+    .simple-features {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #1a1a1a;
+      padding: 40px 20px 60px;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .feature-item {
+      text-align: center;
+      color: #f5f5f5;
+      min-width: 150px;
+    }
+
+    .feature-item img {
+      width: 40px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .feature-item p {
+      font-size: 1rem;
+      color: #ccc;
+    }
+
+    .separator {
+      width: 2px;
+      height: 60px;
+      background-color: #d4af37;
+    }
+
+    .cta {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: #000;
+    }
+
+    .cta h2 {
+      color: #d4af37;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .cta h4 {
+      color: #ccc;
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+
+    .cta form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .input-field {
+      width: 80%;
+      max-width: 400px;
+      padding: 12px;
+      border: 2px solid #d4af37;
+      border-radius: 4px;
+      background-color: #1a1a1a;
+      color: #f5f5f5;
+      font-size: 1rem;
+    }
+
+    .input-field::placeholder {
+      color: #ccc;
+    }
+
+    .cta button {
+      background-color: #d4af37;
+      color: #000;
+      border: none;
+      padding: 14px 30px;
+      font-size: 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .cta button:hover {
+      background-color: #b8942d;
+    }
+
+    footer {
+      background-color: #141414;
+      color: #999;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-bg">
+      <h1>Exclusive Real Estate Investment Opportunities in the UAE</h1>
+      <p>Elite Investment Opportunities in the Heart of the UAE</p>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h2>To know more about Real Estate Investment Opportunities in UAE</h2>
+    <p>Join us for a private discussion on the lucrative real estate landscape of Abu Dhabi & UAE.<br> Discover
+    high-yield investments, tax advantages, and luxury developments tailored for global investors.</p>
+  </section>
+
+  <section class="event-details">
+    <h1>EVENT DETAILS</h1>
+    <div class="simple-features">
+      <div class="feature-item">
+        <img src="CALLENDAR.png" alt="Date Icon" />
+        <p>April 4, 2025</p>
+      </div>
+      <div class="separator"></div>
+      <div class="feature-item">
+        <img src="CLOCK.png" alt="Time Icon" />
+        <p>9:00 AM - 12:00 PM</p>
+      </div>
+      <div class="separator"></div>
+      <div class="feature-item">
+        <img src="LOCATION.png" alt="Location Icon" />
+        <p>Geneva, Switzerland</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>RSVP</h2>
+    <h4>Contact Info/Email<br>or<br>Scan for Direct Access</h4>
+  
+    <div style="margin-top: 30px; text-align: center;">
+      <img src="QRCODE.jpg" alt="WhatsApp QR Code" style="width: 200px; height: auto; border: 2px solid #d4af37; border-radius: 8px;" />
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Prestige Real Estate. All rights reserved.
+  </footer>
+
+</body>
+</html>
